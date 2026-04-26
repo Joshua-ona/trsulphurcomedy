@@ -1,17 +1,19 @@
-import Calendar from "react-calendar";
-import "react-calendar/dist/Calendar.css";
+import FullCalendar from "@fullcalendar/react";
+import dayGridPlugin from "@fullcalendar/daygrid";
 
 export default function Events() {
   return (
-    <div className="section">
+    <div>
       <h2>Events</h2>
 
-      <ul>
-        <li>March - National Theatre</li>
-        <li>June - National Theatre</li>
-      </ul>
-
-      
+      <FullCalendar
+        plugins={[dayGridPlugin]}
+        initialView="dayGridMonth"
+        events={[
+          { title: "National Theatre", date: "2026-03-10" },
+          { title: "National Theatre", date: "2026-06-15" }
+        ]}
+      />
     </div>
   );
 }

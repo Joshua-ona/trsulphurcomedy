@@ -529,4 +529,8 @@ footer {
   transform: translateY(-6px);
   border-color: rgba(255,255,255,0.2);
 }
- 
+ .event-day {
+  background: #ff9800;
+  color: white;
+  border-radius: 50%;
+}
