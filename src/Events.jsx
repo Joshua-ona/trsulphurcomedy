@@ -11,7 +11,7 @@ export default function Events() {
         initialView="dayGridMonth"
         events={[
           { title: "National Theatre", date: "2026-03-10" },
-          { title: "National Theatre", date: "2026-06-15" }
+          { title: "National Theatre", date: "2026-06-14" }
         ]}
       />
     </div>
