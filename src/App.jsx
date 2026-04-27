@@ -7,7 +7,7 @@ import Programs from "./Programs"
 import Events from "./Events"
 import Gallery from "./Gallery"
 import Donate from "./Donate"
-
+import Contact from "./Contact"
 function App() {
 
 
@@ -19,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/programs" element={<Programs />} />
         <Route path="/events" element={<Events />} />
+        <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/donate" element={<Donate />} />
        

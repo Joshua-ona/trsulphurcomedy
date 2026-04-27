@@ -27,6 +27,7 @@ export default function Navbar() {
         <Link to="/about" onClick={() => setOpen(false)}>About</Link>
         <Link to="/programs" onClick={() => setOpen(false)}>Programs</Link>
         <Link to="/events" onClick={() => setOpen(false)}>Events</Link>
+        <Link to="/contact" onClick={() => setOpen(false)}>Contact</Link>
         <Link to="/gallery" onClick={() => setOpen(false)}>Gallery</Link>
         <Link to="/donate" onClick={() => setOpen(false)}>Donate</Link>
       </div>

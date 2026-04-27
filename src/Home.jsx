@@ -1,7 +1,7 @@
 import About from "./About";
 import Programs from "./Programs";
 import Events from "./Events";
-import Gallery from "./Gallery";
+import Contact from "./Contact";
 import Donate from "./Donate";
 
 export default function Home() {
@@ -33,8 +33,8 @@ export default function Home() {
         <Events />
       </section>
 
-      <section id="gallery">
-        <Gallery />
+      <section id="contact">
+        <Contact />
       </section>
 
       <section id="donate">
