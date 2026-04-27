@@ -9,13 +9,13 @@ export default function Programs() {
 
       <div className="grid">
         <Card
-          title="School of Evangelism"
+          title="Kayemba School of Evangelism"
           description="Training people to win souls."
         />
         <img src={street} alt="preach" width={300} />
 
         <Card
-          title="School of Comedy"
+          title="Tr Sulpur Comedy Club"
           description="Supporting and training young comedians."
         />
                       <img src={award} alt="preach" width={300} />

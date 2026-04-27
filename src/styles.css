@@ -359,12 +359,17 @@ position: sticky;
 
 .videos {
   margin-top: 30px;
+  padding: 50px;
+  gap: 40px;
 }
 
 .videos iframe {
   border-radius: 12px;
   width: 100%;
+  padding: 10px;
+  gap: 40px;
   max-width: 500px;
+  
 }
 
 /* =========================

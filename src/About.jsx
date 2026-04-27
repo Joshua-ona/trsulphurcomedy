@@ -37,8 +37,9 @@ export default function About() {
         <div className="about-card glass">
           <h3>🎤 Mcee</h3>
           <p>
-            Training youth and leaders with knowledge, discipline, and purpose
-            for transformation.
+            A dynamic Christian MC who brings energy, joy, and a strong faith presence to every event. 
+            Specializing in hosting church programs, weddings, concerts, and community gatherings, he creates a lively, uplifting atmosphere while keeping everything well-organized and engaging.
+             Our goal is to glorify God and leave every audience inspired.
           </p>
         </div>
 
