@@ -67,6 +67,9 @@ position: sticky;
   text-decoration: none;
   transition: 0.3s;
 }
+.navbar a:active{
+  
+}
 .menu-icon {
   display: flex;
   font-size: 22px;
@@ -123,9 +126,10 @@ position: sticky;
 .nav-links.active {
   display: flex;
   animation: fadeIn 0.2s ease-in-out;
+  
 }
 .navbar a:hover {
-  color: #ff00cc;
+  color: #d40bd4;
 }
 .navbar a:active {
   color: #9e0680;

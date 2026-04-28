@@ -3,6 +3,7 @@ import Programs from "./Programs";
 import Events from "./Events";
 import Contact from "./Contact";
 import Donate from "./Donate";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
 
         <div className="cta">
           <button><a href="tel:+256 706 423099">Buy ticket</a></button>
-          <button><a href="./donate">Donate</a></button>
+          <button> <Link to="/donate" >Donate</Link></button>
           
         </div>
       </section>
