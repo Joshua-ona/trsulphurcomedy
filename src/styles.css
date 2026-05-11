@@ -249,7 +249,7 @@ position: sticky;
   line-height: 1.6;
 }
 .hero {
-  min-height: 85vh;
+  min-height: 115vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -474,6 +474,8 @@ footer {
     max-width: 250px;
   }
 }
+
+
 @keyframes fadeIn {
   from {
     opacity: 0;
