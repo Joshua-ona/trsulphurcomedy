@@ -5,7 +5,7 @@ export default function Events() {
       title: "National Theatre Show",
       date: "15 March 2026",
       location: "National Theatre - Kampala",
-      status: "Upcoming"
+      status: "Done"
     },
     {
       title: "Comedy Night Live",
@@ -34,12 +34,18 @@ export default function Events() {
             <p>📅 {event.date}</p>
             <p>📍 {event.location}</p>
 
-            <button className="event-btn">
-              Get Tickets
-            </button>
-          </div>
+
+               
+                {event.status !== "Done" && (
+        <button className="event-btn">
+          <a href="https://ticketyange.com/event/?token=2HWJXG34M7LDINBZRCSK">
+            Buy ticket
+          </a>
+        </button>
+      )} </div>
         ))}
-      </div>
+     
+    </div>
     </div>
   );
 }

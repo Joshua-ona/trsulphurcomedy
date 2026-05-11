@@ -15,7 +15,7 @@ export default function Home() {
         <p>Spreading the Gospel Through Laughter</p>
 
         <div className="cta">
-          <button><a href="tel:+256 706 423099">Buy ticket</a></button>
+          <button><a href="https://ticketyange.com/event/?token=2HWJXG34M7LDINBZRCSK">Buy ticket</a></button>
           <button> <Link to="/donate" >Donate</Link></button>
           
         </div>
