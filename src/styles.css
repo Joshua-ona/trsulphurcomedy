@@ -249,7 +249,7 @@ position: sticky;
   line-height: 1.6;
 }
 .hero {
-  min-height: 115vh;
+  min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -275,7 +275,7 @@ position: sticky;
 }
 
 .cta {
-  margin-top: 440px;
+  margin-top: 340px;
   margin-left: 250px;
 }
 .cta button a{
@@ -473,6 +473,18 @@ footer {
     width: 100%;
     max-width: 250px;
   }
+  .hero {
+  min-height: 335vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  background: url("./assets/sulha.jpeg") center/cover no-repeat;
+  
+  /*background: radial-gradient(circle at center, #1a1a2e, #000);*/
+}
 }
 
 
