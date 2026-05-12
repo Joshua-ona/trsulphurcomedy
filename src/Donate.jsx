@@ -8,7 +8,7 @@ export default function Donate() {
     method: "Mobile Money"
   });
 
-  const phoneNumber = "256709184769"; // your WhatsApp number
+  const phoneNumber = "+256 706 423099"; // your WhatsApp number
 
   const handleChange = (e) => {
     const { name, value } = e.target;
